@@ -285,7 +285,7 @@ function M.build_groups(palette)
 		------------------------------------------------------------------------ cmp
 		CmpItemMenu                        = { fg = p.text },
 		CmpItemAbbr                        = { fg = p.text },
-		CmpItemAbbrMatch                   = { fg = p.text, bold = true },
+		CmpItemAbbrMatch                   = { link = "PmenuMatch" },
 		CmpItemAbbrDeprecated              = { link = "DiagnosticDeprecated" },
 		CmpItemKind                        = { fg = p.text },
 		CmpItemKindFunction                = { link = "Function" },
@@ -320,11 +320,12 @@ function M.build_groups(palette)
 		BlinkCmpKindStruct                 = { link = "Type" },
 
 		------------------------------------------------------------------------ Telescope
-		TelescopeMatching                  = { underdotted = true, sp = p.accent },
+		TelescopeMatching                  = { link = "PmenuMatch" },
+		TelescopeTitle                     = { link = "Title" },
 
 		------------------------------------------------------------------------ Telescope
 		SnacksPickerPrompt                 = { fg = p.accent },
-		SnacksPickerMatch                  = { underdotted = true, sp = p.accent },
+		SnacksPickerMatch                  = { link = "PmenuMatch" },
 		SnacksPickerSelected               = { fg = p.accent },
 
 		------------------------------------------------------------------------ Lazy
