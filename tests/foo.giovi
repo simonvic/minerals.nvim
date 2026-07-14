@@ -1,0 +1,10 @@
+# comment
+#? doc
+Main <
+	main() {
+		b Bool <- true
+		i Int <- 69 + 420
+		const PI Real <- 3.14
+		print("hello world")
+	}
+>

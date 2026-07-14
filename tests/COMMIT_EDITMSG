@@ -1,0 +1,45 @@
+kind(scope)!: message
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   foo.txt
+#
+# Untracked files:
+#	untracked.txt
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/foo.txt b/foo.txt
+index bcbaebe..96a7f61 100644
+--- a/foo.txt
++++ b/foo.txt
+@@ -2,20 +2,17 @@ Est fugit iure qui. Qui est delectus omnis laborum cupiditate occaecati
+ incidunt velit. Omnis aliquam eius ratione voluptatem. Eveniet dolorem eos
+ corrupti earum. Nihil eveniet quia nisi doloribus sit et.
+ 
+-Iure facilis possimus ut blanditiis expedita. Consequatur et nihil aspernatur
+-nostrum doloremque. Voluptatem sit eum velit suscipit. Ut sed sequi placeat
+-dicta in. Harum laudantium facere vel. Doloremque qui doloremque exercitationem
+-eos.
+-
+ Fuga commodi velit praesentium ut temporibus. Esse expedita necessitatibus
+ nulla tempora perspiciatis qui. Assumenda ipsum qui excepturi odio enim ut
+ inventore quaerat.
+ 
+ Iste animi blanditiis omnis at harum suscipit recusandae. Vel excepturi
+-consectetur vitae et qui. Accusamus distinctio in unde quis ad. Et consequatur
+-sunt quis reiciendis. Est mollitia provident tenetur perspiciatis.
++consectetur vitae et qui. ACCUSAMUS DISTINCTIO IN UNDE QUIS AD. ET CONSEQUATUR
++SUNT QUIS REICIENDIS. Est mollitia provident tenetur perspiciatis.
+ 
+ Aliquam rerum facilis et iure ut architecto. Autem accusamus aut itaque tempora
+ nostrum a. Adipisci sint ut tenetur. Odit consequuntur eos quo laborum nesciunt
+ dignissimos.
+ 
++Deleniti ipsum eligendi illum qui veniam. Tempora minus reprehenderit
++praesentium aut. Sed excepturi aliquam quasi quaerat porro quos officia.
+# vim: ft=GITCOMMIT
